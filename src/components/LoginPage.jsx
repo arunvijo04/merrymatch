@@ -50,7 +50,7 @@ const LoginPage = () => {
             type="text"
             value={uid}
             onChange={(e) => setUid(e.target.value)}
-            placeholder="Username"
+            placeholder="UID"
             className="w-full p-3 mb-4 text-gray-700 bg-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
           />
           <input
